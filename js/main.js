@@ -1,6 +1,5 @@
    var screen = document.querySelector('.screen');
    var buttons = document.querySelectorAll('.btn');
- //  var clear = documet.querySelector('.btn-clear');
    var equal = document.querySelector('.btn-equal');
 
 
@@ -12,7 +11,6 @@
    });
 
    equal.addEventListener('click', function(e){
-      console.log('kol')
       if(screen.value === ''){
         screen.value = "";
       }else{
